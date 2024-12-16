@@ -6,7 +6,7 @@ from models import db
 
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:Elias928@localhost/bakery_db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:placeholder@localhost/bakery_db'
 
 
 db.init_app(app)
